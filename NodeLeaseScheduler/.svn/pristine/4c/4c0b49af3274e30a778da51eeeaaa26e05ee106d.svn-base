@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "node-lease-scheduler",
+      "script": "dist/server.js",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 9011,
+        "DB_CONNECTION_STRING": "130.61.238.135:1521/altstpdb.almisksubnet3.almiskvcn.oraclevcn.com",
+        "DB_PASSWORD": "Alm_Tst_J20",
+        "DB_USER": "xxpm",
+        "DB_POOL_MIN": 10,
+        "DB_POOL_MAX": 20,
+        "DB_POOL_INC": 2,
+        "BASE_URL": "/api/lease"
+      }
+    }
+  ]
+}

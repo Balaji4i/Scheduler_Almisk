@@ -1,0 +1,20 @@
+export type T_ScdlHdrRes = {
+  SCHEDULE_ID: number;
+  SCHEDULE_NAME: string;
+  FREQUENCY_MIN: number;
+  PROGRAM_NAME: string;
+  BI_REPORT_PATH: string;
+  BI_REPORT_NAME: string;
+  DB_REFRESH_PKG: string;
+  APPLICATION_NAME: string;
+  NEXT_SCHEDULE_TIME: Date;
+  CREATED_BY: string;
+  CREATION_DATE: string;
+  LAST_UPDATED_BY: string;
+  LAST_UPDATE_DATE: Date;
+  LAST_UPDATE_LOGIN: string;
+  RUN_STATUS: string;
+  STATUS: string;
+  DB_TABLE_NAME: string;
+  DB_COLUMN_NAMES: string;
+};
